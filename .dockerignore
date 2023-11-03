@@ -1,0 +1,6 @@
+src
+tests
+venv
+.git
+.idea
+.pytest_cache
