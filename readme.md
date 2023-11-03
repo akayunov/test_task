@@ -1,10 +1,10 @@
 apt install docker
 
-docker build . -f build/Dockerfile  -t task
-
 git clone git@github.com:akayunov/test_task.git
 
-cd task
+cd test_task
+
+docker build . -f build/Dockerfile  -t task
 
 python3 -m venv venv
 
